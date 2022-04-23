@@ -37,10 +37,6 @@ Food Trucker Tracked is your one-stop app for finding the best food trucks near 
 - [X] Map with food trucks on detail page
 - [X] Giant map with all food trucks
 
-### Current Progress GIF
-
-![Demo](https://media.giphy.com/media/ntBBvvix2OLeDAAUrG/giphy.gif)
-
 ### 2. Screen Archetypes
 
 * Stream
