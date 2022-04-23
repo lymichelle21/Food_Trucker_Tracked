@@ -11,7 +11,6 @@ class FoodtruckDetailsViewController: UIViewController {
     
     @IBOutlet weak var truckMapLocation: MKMapView!
     
-    
     var foodtruck: [String:Any]!
     
     override func viewDidLoad() {

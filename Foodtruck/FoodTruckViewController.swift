@@ -26,11 +26,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                             
                          
                          self.tableView.reloadData()
-                            // TODO: Get the array of foodtrucks
-                            // TODO: Store the foodtrucks in a property to use elsewhere
-                            // TODO: Reload your table view data
                          
-                         //print(foodtrucks)
+                         //print(self.foodtrucks)
 
                      }
                 }
@@ -49,11 +46,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
             cell.titleLabel.text = title
             cell.synopsisLabel.text = synopsis
-            
-            //let baseUrl = "https://image.tmdb.org/t/p/w185"
-            //let posterPath = foodtruck["poster_path"] as! String
-            //let posterUrl = URL(string: baseUrl + posterPath)
-            //cell.posterView.af.setImage(withURL: posterUrl!)
             
             return cell
         }

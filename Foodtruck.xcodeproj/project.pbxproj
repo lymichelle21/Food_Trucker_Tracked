@@ -17,8 +17,7 @@
 		3A351E4E27C1808700C1F698 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A351E4D27C1808700C1F698 /* FlixUITests.swift */; };
 		3A351E5027C1808700C1F698 /* FlixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A351E4F27C1808700C1F698 /* FlixUITestsLaunchTests.swift */; };
 		3A553B8A27CAB5A7002137F0 /* FoodTruckDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A553B8927CAB5A7002137F0 /* FoodTruckDetailsViewController.swift */; };
-		3A786D8A27CF1C8200C16DD8 /* FoodTruckGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A786D8927CF1C8200C16DD8 /* FoodTruckGridViewController.swift */; };
-		3A786D8C27CF2AC100C16DD8 /* FoodTruckGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A786D8B27CF2AC100C16DD8 /* FoodTruckGridCell.swift */; };
+		3A786D8A27CF1C8200C16DD8 /* FoodTruckMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A786D8927CF1C8200C16DD8 /* FoodTruckMapViewController.swift */; };
 		3A8617CC27C74ADB007E9FC3 /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8617CB27C74ADB007E9FC3 /* FoodTruckCell.swift */; };
 		3A8617CF27C8650D007E9FC3 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3A8617CE27C8650D007E9FC3 /* AlamofireImage */; };
 		3A9124AD2801333600581AA1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9124AC2801333600581AA1 /* LoginViewController.swift */; };
@@ -57,8 +56,7 @@
 		3A351E4D27C1808700C1F698 /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		3A351E4F27C1808700C1F698 /* FlixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A553B8927CAB5A7002137F0 /* FoodTruckDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckDetailsViewController.swift; sourceTree = "<group>"; };
-		3A786D8927CF1C8200C16DD8 /* FoodTruckGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckGridViewController.swift; sourceTree = "<group>"; };
-		3A786D8B27CF2AC100C16DD8 /* FoodTruckGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckGridCell.swift; sourceTree = "<group>"; };
+		3A786D8927CF1C8200C16DD8 /* FoodTruckMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckMapViewController.swift; sourceTree = "<group>"; };
 		3A8617CB27C74ADB007E9FC3 /* FoodTruckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
 		3A9124AC2801333600581AA1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		621BEC6A736579B395C1D195 /* Pods_Foodtruck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodtruck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,8 +127,7 @@
 				3A351E3727C1808600C1F698 /* LaunchScreen.storyboard */,
 				3A351E3A27C1808600C1F698 /* Info.plist */,
 				3A553B8927CAB5A7002137F0 /* FoodTruckDetailsViewController.swift */,
-				3A786D8927CF1C8200C16DD8 /* FoodTruckGridViewController.swift */,
-				3A786D8B27CF2AC100C16DD8 /* FoodTruckGridCell.swift */,
+				3A786D8927CF1C8200C16DD8 /* FoodTruckMapViewController.swift */,
 				3A9124AC2801333600581AA1 /* LoginViewController.swift */,
 			);
 			path = Foodtruck;
@@ -359,8 +356,7 @@
 				3A8617CC27C74ADB007E9FC3 /* FoodTruckCell.swift in Sources */,
 				3A9124AD2801333600581AA1 /* LoginViewController.swift in Sources */,
 				3A351E2F27C1808500C1F698 /* SceneDelegate.swift in Sources */,
-				3A786D8A27CF1C8200C16DD8 /* FoodTruckGridViewController.swift in Sources */,
-				3A786D8C27CF2AC100C16DD8 /* FoodTruckGridCell.swift in Sources */,
+				3A786D8A27CF1C8200C16DD8 /* FoodTruckMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
